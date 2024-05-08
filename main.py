@@ -1,12 +1,10 @@
-import tkinter as tk
+from tkinter import *
+import random
 
-window = tk.Tk()
-window.title("Hello world")
-window.geometry("300x300")
+#**********************Starting Point of program*************************#
 
-hello = tk.Label(text="Hello world!")
-hello.pack()
-button = tk.Button(text="Click me!")
-button.pack()
-
-tk.mainloop()
+if __name__ == '__main__':
+    root = Tk()
+    root.title("Spacial Awareness Quiz")
+    root.geometry("500x500")
+    root.mainloop()
